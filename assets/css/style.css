@@ -36,7 +36,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc107;
+  background: #F0B01A;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -72,7 +72,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #ffd900;
+  background: #F0B01A;
   overflow-y: auto;
 }
 
@@ -80,7 +80,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #312e2e;
+  border: 8px solid #050505;
 }
 
 #header .profile h1 {
@@ -95,7 +95,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #ffffff;
-  color: rgb(8, 8, 8);
+  color: #F0B01A;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -196,7 +196,7 @@ h6 {
   font-size: 34px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #ffcd27;
+  background-color:#F0B01A;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -220,15 +220,19 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+ /* width: 100%;
+  height: 60vh;*/
+  
+ 
+  background: url("../img/aula02.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
   height: 60vh;
-  background: url("../img/aula02.jpg") top center;
-  background-size: top;
 }
 
 #hero:before {
   content: "";
-  background: rgba(34, 34, 34, 0.274);
+  background: rgba(100, 98, 98, 0.274);
   position: absolute;
   height: 60vh;
   bottom: 0;
@@ -247,24 +251,25 @@ h6 {
 #hero h1 {
   margin: 0 0 5px 0;
   font-size: 74px;
-  font-weight: 700;
-  line-height: 56px;
-  color: rgba(27, 24, 24, 0.753);
+  font-weight:bolder;
+  line-height: 76px;
+  color: rgba(26, 25, 25, 0.856);
   
 }
 
 #hero p {
-  color: #f3d73b;
+  color: #f0b01ad2;
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: bold;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: rgb(90, 88, 88);
+  color: rgba(44, 43, 43, 0.795);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #f3d73b;
+  border-bottom: 3px solid #F0B01A;
 }
 
 @media (min-width: 1024px) {
@@ -275,7 +280,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 36px;
   }
 
@@ -283,6 +288,20 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero p span {
+    color: rgba(44, 43, 43, 0.795);
+    font-size: 18px;
+    line-height: 26px;
+    border-bottom: 3px solid #F0B01A;
+  }
+  #hero p {
+
+    color: #f0b01ad2;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
   }
 }
 
