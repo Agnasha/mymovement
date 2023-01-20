@@ -660,12 +660,12 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #F0B01A;
 }
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
+  box-shadow: 0px 0 30px rgba(24, 23, 5, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -714,14 +714,14 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #F0B01A;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #d2e2e9;
 }
 
 .services .icon i {
-  color: #fff;
+  color: rgb(5, 5, 5);
   font-size: 24px;
   line-height: 0;
 }
@@ -731,7 +731,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #F0B01A;
 }
 
 .services .title {
@@ -742,11 +742,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #F0B01A;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #000000;
 }
 
 .services .description {
@@ -790,7 +790,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #F0B01A;
   font-size: 26px;
 }
 
@@ -840,11 +840,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #F0B01A;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #F0B01A;
 }
 
 /*--------------------------------------------------------------
@@ -863,7 +863,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #F0B01A;
   float: left;
   width: 44px;
   height: 44px;
@@ -887,7 +887,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #F0B01A;
 }
 
 .contact .info .email p {
@@ -914,14 +914,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #F0B01A;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #F0B01A;
   color: #fff;
 }
 
