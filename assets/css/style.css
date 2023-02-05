@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -91,7 +91,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:"Open Sans", sans-serif;
 }
 
 #header .profile h1 a,
@@ -229,6 +229,7 @@ h6 {
   
 }
 
+
 #hero:before {
   content: "";
   background: rgba(100, 98, 98, 0.274);
@@ -261,7 +262,7 @@ h6 {
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #hero p span {
@@ -279,19 +280,19 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 40px;
   }
 
   #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 19px;
     margin-bottom: 30px;
   }
   #hero p span {
     color: rgba(44, 43, 43, 0.795);
     font-size: 18px;
-    line-height: 26px;
+    line-height: 20px;
     border-bottom: 3px solid #F0B01A;
   }
   #hero p {
@@ -300,7 +301,7 @@ h6 {
     margin-bottom: 50px;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
   }
 }
 
@@ -416,7 +417,7 @@ section {
 .facts .count-box p{
   padding: 15px 0 0 0;
   margin: 0 0 0 0px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #111010;
 }
@@ -429,7 +430,7 @@ section {
   margin-top: 20px;
   color: #F0B01A;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -453,7 +454,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #050d18;
 }
 
@@ -497,7 +498,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
