@@ -4,9 +4,9 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #030303;
+  color: #FFFFFF;
+  background-color: #000000;
 }
-
 a {
   color: #000000;
   text-decoration: none;
@@ -320,7 +320,7 @@ section {
 }
 
 .section-bg {
-  background: #f0b01a1a;
+  background: #000000;
 }
 
 .section-title {
@@ -412,7 +412,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #111111;
+  color: #FFFFFF;
   margin-left: 60px;
 }
 .facts .count-box p strong{
@@ -460,7 +460,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
-  color: #050d18;
+  color: #FFFFFF;
 }
 
 .skills .progress .skill .val {
@@ -774,6 +774,7 @@ section {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+  color: #000000;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -786,7 +787,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #FFFFFF;
 }
 
 .testimonials .testimonial-item h4 {
